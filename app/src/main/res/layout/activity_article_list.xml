@@ -5,13 +5,17 @@
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipe_refresh_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/toolbar_height">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingTop="@dimen/article_list_top_padding"
+            android:paddingBottom="@dimen/article_list_horizontal_padding"
+            android:paddingEnd="@dimen/article_list_vertical_padding"
+            android:paddingStart="@dimen/article_list_vertical_padding"
+            android:paddingTop="@dimen/article_list_horizontal_padding"
             android:clipToPadding="false"
             android:scrollbarStyle="outsideOverlay" />
     </android.support.v4.widget.SwipeRefreshLayout>
@@ -19,7 +23,7 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
+        android:layout_height="@dimen/toolbar_height"
         android:layout_gravity="top"
         android:background="?attr/colorPrimary"
         android:elevation="@dimen/toolbar_elevation">
