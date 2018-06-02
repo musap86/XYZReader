@@ -10,7 +10,7 @@
 
     <!-- detail -->
     <dimen name="detail_photo_height">384dp</dimen>
-    <dimen name="detail_card_top_margin">384dp</dimen>
+    <dimen name="detail_card_top_margin">@dimen/detail_photo_height</dimen>
     <dimen name="detail_inner_horizontal_margin">32dp</dimen>
     <dimen name="detail_meta_bar_vertical_padding">32dp</dimen>
     <dimen name="detail_meta_bar_title_bottom_padding">8dp</dimen>
