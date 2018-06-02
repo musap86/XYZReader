@@ -7,6 +7,7 @@
     <dimen name="article_list_horizontal_padding">8dp</dimen>
     <dimen name="article_list_vertical_padding">4dp</dimen>
     <dimen name="article_list_card_image_height">48dp</dimen>
+    <dimen name="article_list_card_corner_radius">4dp</dimen>
     <dimen name="article_list_margin">8dp</dimen>
     <dimen name="article_titles_horizontal_padding">8dp</dimen>
     <dimen name="article_titles_vertical_padding">4dp</dimen>
@@ -30,7 +31,7 @@
     <item name="detail_title_line_spacing_multiplier" format="float" type="fraction">0.9</item>
     <dimen name="fab_elevation">6dp</dimen>
     <dimen name="fab_press_translation_z">12dp</dimen>
-    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="fab_margin">26dp</dimen>
     <dimen name="fab_width_height">56dp</dimen>
     <dimen name="sheet_elevation">2dp</dimen>
     <dimen name="action_up_width">56dp</dimen>

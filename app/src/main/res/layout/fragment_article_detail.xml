@@ -101,7 +101,7 @@
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"
         style="@style/FabStyle"
-        app:layout_anchor="@id/draw_insets_frame_layout"
+        app:layout_anchor="@id/photo_container"
         app:layout_anchorGravity="bottom|right|end" />
 
 </android.support.design.widget.CoordinatorLayout>
