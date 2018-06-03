@@ -2,7 +2,7 @@
     <!-- list -->
     <dimen name="toolbar_elevation">4dp</dimen>
     <dimen name="toolbar_height">64dp</dimen>
-    <dimen name="article_list_card_elevation">1dp</dimen>
+    <dimen name="article_list_card_elevation">2dp</dimen>
     <dimen name="article_list_card_elevation_picked">8dp</dimen>
     <dimen name="article_list_horizontal_padding">8dp</dimen>
     <dimen name="article_list_vertical_padding">4dp</dimen>
